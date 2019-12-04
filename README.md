@@ -32,3 +32,4 @@ file.close()
 #put into csv file, seperte by commas
 #put into dataframe
 #use pandas to visualize
+#changetrial
