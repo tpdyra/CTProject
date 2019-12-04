@@ -28,6 +28,11 @@ file.write(f'{movies}\n ')
 
 file.close()
 
+import re
+
+with open('rotten_movies_data') as fh:
+    commands = dict(re.findall(r'(\S+)\s+(.+)', fh.read()))
+
 #audience score vs. tomato meter
 #put into csv file, seperte by commas
 #put into dataframe
